@@ -15,6 +15,13 @@ using namespace std;
 
 /*takeaways
   - modify a node's next to point to the previous node
+  - when the cur will eventually become
+    a nullptr. This is why we need a
+    "prev" pointer to remember the very
+    last node on the original list,
+    which is the head of the reversed
+    list.
+
 */
 
 Node *Solution::reverseList(Node *head)
